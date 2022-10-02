@@ -1,7 +1,6 @@
 import * as react from "react";
 import {Button, Text, View, StyleSheet} from "react-native";
 
-
 function SettingsScreen() {
     return (
       <View style={styles.container}>

@@ -1,8 +1,6 @@
 import * as react from "react";
 import {Button, Text, View, StyleSheet} from "react-native";
 
-
-
 function HomeScreen({navigation}) {
     return (
       <View style={styles.container}>
