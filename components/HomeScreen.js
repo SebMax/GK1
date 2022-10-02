@@ -6,8 +6,8 @@ function HomeScreen({navigation}) {
       <View style={styles.container}>
         <Text>Home!</Text>
         <Button 
-        title="Klik mig"
-        onPress={() => navigation.navigate('Settings')} />
+        title="Press here to navigate to to do list page"
+        onPress={() => navigation.navigate('Todo')} />
       </View>
     );
   } 

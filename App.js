@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
-import SettingsScreen from './components/SettingsScreen';
+import TodoScreen from './components/TodoScreen';
 import HomeScreen from './components/HomeScreen';
 import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
@@ -14,7 +13,7 @@ function App() {
     <NavigationContainer>
       <Tab.Navigator>
         <Tab.Screen name="Home" component={HomeScreen} />
-        <Tab.Screen name="Settings" component={SettingsScreen} />
+        <Tab.Screen name="Todo" component={TodoScreen} />
       </Tab.Navigator>
     </NavigationContainer>
   );
